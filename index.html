@@ -26,9 +26,21 @@
 	<link rel="stylesheet" type="text/css" href="styles/game.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<script>
+        setTimeout(function() {
+            document.title = "Home | Schoology";
+            document.querySelector("link[rel='icon']").href = "https://i.ibb.co/NY8yC9c/download-1.png";
+        }, 3500);
+    </script>
+
 </head>
 <body>
-
+<script>
+    window.onbeforeunload = function() {
+        return "Anti-GoGuardian measures have been triggered, if this wasnt from go guardian then click yes to close";
+    };
+</script>
+	
 <!-- - - - - - - - - - - - - - - - - - -->
 <!-- THE GAME ITSELF, FRONT AND CENTER -->
 <!-- - - - - - - - - - - - - - - - - - -->
